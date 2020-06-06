@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="ArtProgrammki.exe"/>
+    <OBJFILES value="C:\\ArtProgrammki.obj C:\\ArtProgrammFrm.obj C:\\AnonsTree.obj 
+      C:\\ChannelTxtEditorFrm.obj C:\\FilmEditorFrm.obj C:\\Film.obj 
+      C:\\WeekDay.obj C:\\FilmContainer.obj C:\\ChannelTreeUpdater.obj 
+      C:\\AbstractTreeUpdater.obj C:\\FilmIterator.obj 
+      C:\\WeekDayTreeUpdater.obj C:\\FileSearchFrm.obj C:\\FilesSearcher.obj 
+      C:\\TranslitVariator.obj C:\\TranslitCharSplitter.obj C:\\ImageViewer.obj 
+      C:\\GraphicEx.obj C:\\TextSelection.obj C:\\ViewerErrors.obj 
+      C:\\ImageManager.obj C:\\ImageSelectorFrm.obj C:\\StringEditorFrm.obj 
+      C:\\FileAnonsObserver.obj C:\\CharClasses.obj C:\\AnonsCategoryType.obj 
+      C:\\TimeCategory.obj C:\\WeekDayCategory.obj C:\\StringContainer.obj 
+      C:\\YearCategory.obj C:\\SessionManager.obj C:\\SessionSaver.obj 
+      C:\\SessionLoader.obj C:\\XMLElements.obj C:\\tinyxml.obj 
+      C:\\tinyxmlparser.obj C:\\tinystr.obj C:\\tinyxmlerror.obj 
+      C:\\FileReaderWriter.obj C:\\WeekTextMap.obj C:\\CharClassificator.obj 
+      C:\\AnonsSplitter.obj C:\\FilmsMap.obj C:\\ShowTime.obj 
+      C:\\FilmContainerUtilites.obj C:\\FilmNameCategory.obj 
+      C:\\DirectorCategory.obj C:\\Category.obj C:\\FilmType.obj 
+      C:\\HistoryForm.obj C:\\SettingsEditorFrm.obj C:\\ShareFoldersManager.obj 
+      C:\\TreeColors.obj C:\\FileOperations.obj C:\\SettingsManager.obj 
+      C:\\XMLElementsSettings.obj C:\\ReplaceAnonsTextChecker.obj 
+      C:\\StringsUtilites.obj C:\\ChannelFilesAndNames.obj C:\\ChannelsList.obj 
+      C:\\FilmsInWeekDaysFrm.obj"/>
+    <RESFILES value="ArtProgrammki.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ArtProgrammFrm.dfm anonstree\AnonsTree.dfm 
+      channeltexteditor\ChannelTxtEditorFrm.dfm filmeditor\FilmEditorFrm.dfm 
+      filesearch\FileSearchFrm.dfm ImageViewer\ImageViewer.dfm 
+      imageselectorform\ImageSelectorFrm.dfm 
+      filmeditor\stringeditor\StringEditorFrm.dfm historyform\HistoryForm.dfm 
+      settingseditor\SettingsEditorFrm.dfm filmsinweekdays\FilmsInWeekDaysFrm.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcb2kaxserver.lib indy.lib dbxcds.lib dclocx.lib soaprtl.lib bcbie.lib 
+      nmfast.lib dbexpress.lib inetdbxpress.lib inetdbbde.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vcldb.lib dbrtl.lib adortl.lib bdertl.lib vcldbx.lib 
+      ibxpress.lib cds.lib dsnap.lib bdecds.lib qrpt.lib teeui.lib teedb.lib 
+      tee.lib dss.lib teeqr.lib visualdbclx.lib dsnapcrba.lib dsnapcon.lib 
+      bcbsmp.lib inetdbbde.lib inetdbxpress.lib dbexpress.lib nmfast.lib 
+      bcbie.lib soaprtl.lib dclocx.lib dbxcds.lib indy.lib bcb2kaxserver.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi cds.bpi dsnap.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi"/>
+    <PATHCPP value=".;anonstree;channeltexteditor;filmeditor;film;filmcontainer;anonstree;anonstree;filmcontainer;anonstree;filesearch;filesearch;filesearch;filesearch;ImageViewer;ImageViewer;imagemanager;imageselectorform;filmeditor\stringeditor;fileanonsobserver;anonssplitter\stringcontainer;anonssplitter\anonscategory;anonssplitter\anonscategory;anonssplitter\anonscategory;anonssplitter\stringcontainer;anonssplitter\anonscategory;sessionmanager;sessionmanager;sessionmanager;sessionmanager;sessionmanager\tinyxml;sessionmanager\tinyxml;sessionmanager\tinyxml;sessionmanager\tinyxml;filereaderwriter;anonssplitter\weektextmap;anonssplitter\stringcontainer;anonssplitter;anonssplitter\filmsmap;filmcontainer;anonssplitter\anonscategory;anonssplitter\anonscategory;anonssplitter\anonscategory;film;historyform;settingseditor;imagemanager\sharefoldersmanager;anonstree;fileoperations;settingsmanager;settingsmanager;replaceAnonsTextChecker;channelfilesandnames;channelfilesandnames;filmsinweekdays"/>
+    <PATHPAS value=".;ImageViewer\GraphicEx"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="ArtProgrammki.cpp"/>
+    <INCLUDEPATH value="filmsinweekdays;channelfilesandnames;replaceAnonsTextChecker;settingsmanager;fileoperations;imagemanager\sharefoldersmanager;settingseditor;historyform;..\..\Bin;anonssplitter\filmsmap;anonssplitter;anonssplitter\weektextmap;filereaderwriter;filereader;sessionmanager\tinyxml;sessionmanager;anonssplitter\anonscategory;anonssplitter\stringcontainer;filmeditor\stringeditor;imageselectorform;imagemanager;filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="filmsinweekdays;channelfilesandnames;replaceAnonsTextChecker;settingsmanager;fileoperations;imagemanager\sharefoldersmanager;settingseditor;historyform;..\..\Bin;anonssplitter\filmsmap;anonssplitter;anonssplitter\weektextmap;filereaderwriter;filereader;sessionmanager\tinyxml;sessionmanager;anonssplitter\anonscategory;anonssplitter\stringcontainer;filmeditor\stringeditor;imageselectorform;imagemanager;filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-Ifilmsinweekdays -Ichannelfilesandnames -IreplaceAnonsTextChecker 
+      -Isettingsmanager -Ifileoperations -Iimagemanager\sharefoldersmanager 
+      -Isettingseditor -Ihistoryform -I..\..\Bin -Ianonssplitter\filmsmap 
+      -Ianonssplitter -Ianonssplitter\weektextmap -Ifilereaderwriter 
+      -Ifilereader -Isessionmanager\tinyxml -Isessionmanager 
+      -Ianonssplitter\anonscategory -Ianonssplitter\stringcontainer 
+      -Ifilmeditor\stringeditor -Iimageselectorform -Iimagemanager 
+      -Ifilmeditor\imageselectorform -Ioutdirectoryframe -Ioutdirectorymanager 
+      -IImageViewer\GraphicEx -IImageViewer -Ifilesearch 
+      -Ichanneltexteditor\filereader -Ifilmcontainer -Ifilm -Ichannel 
+      -Ifilmeditor -Ifileanonsobserver -Ichanneltexteditor -Ianonstree -I.. 
+      -IArtProgrmmki\film -IArtProgrmmki\channel -IArtProgrmmki\filmeditor 
+      -IArtProgrmmki\fileanonsobserver -IArtProgrmmki\channeltexteditor 
+      -IArtProgrmmki\anonstree -IArtProgrmmki -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-N2&quot;C:\&quot; -N0&quot;C:\&quot; -$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-I&quot;C:\&quot; -D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="ArtProgrammki.res" FORMNAME="" UNITNAME="ArtProgrammki.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ArtProgrammki.cpp" FORMNAME="" UNITNAME="ArtProgrammki" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ArtProgrammFrm.cpp" FORMNAME="ArtProgramm" UNITNAME="ArtProgrammFrm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonstree\AnonsTree.cpp" FORMNAME="AnonsTree" UNITNAME="AnonsTree" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="channeltexteditor\ChannelTxtEditorFrm.cpp" FORMNAME="ChannelText" UNITNAME="ChannelTxtEditorFrm" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="filmeditor\FilmEditorFrm.cpp" FORMNAME="FilmEditor" UNITNAME="FilmEditorFrm" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="film\Film.cpp" FORMNAME="" UNITNAME="Film" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WeekDay.cpp" FORMNAME="" UNITNAME="WeekDay" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filmcontainer\FilmContainer.cpp" FORMNAME="" UNITNAME="FilmContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonstree\ChannelTreeUpdater.cpp" FORMNAME="" UNITNAME="ChannelTreeUpdater" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonstree\AbstractTreeUpdater.cpp" FORMNAME="" UNITNAME="AbstractTreeUpdater" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filmcontainer\FilmIterator.cpp" FORMNAME="" UNITNAME="FilmIterator" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonstree\WeekDayTreeUpdater.cpp" FORMNAME="" UNITNAME="WeekDayTreeUpdater" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filesearch\FileSearchFrm.cpp" FORMNAME="FileSearch" UNITNAME="FileSearchFrm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filesearch\FilesSearcher.cpp" FORMNAME="" UNITNAME="FilesSearcher" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filesearch\TranslitVariator.cpp" FORMNAME="" UNITNAME="TranslitVariator" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filesearch\TranslitCharSplitter.cpp" FORMNAME="" UNITNAME="TranslitCharSplitter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImageViewer\ImageViewer.cpp" FORMNAME="ImageViewerFrame" UNITNAME="ImageViewer" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImageViewer\GraphicEx\GraphicEx.pas" FORMNAME="" UNITNAME="GraphicEx" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TextSelection.cpp" FORMNAME="" UNITNAME="TextSelection" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImageViewer\ViewerErrors.cpp" FORMNAME="" UNITNAME="ViewerErrors" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="imagemanager\ImageManager.cpp" FORMNAME="" UNITNAME="ImageManager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="imageselectorform\ImageSelectorFrm.cpp" FORMNAME="ImageSelector" UNITNAME="ImageSelectorFrm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filmeditor\stringeditor\StringEditorFrm.cpp" FORMNAME="StringEditor" UNITNAME="StringEditorFrm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fileanonsobserver\FileAnonsObserver.cpp" FORMNAME="" UNITNAME="FileAnonsObserver" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\stringcontainer\CharClasses.cpp" FORMNAME="" UNITNAME="CharClasses" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\anonscategory\AnonsCategoryType.cpp" FORMNAME="" UNITNAME="AnonsCategoryType" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\anonscategory\TimeCategory.cpp" FORMNAME="" UNITNAME="TimeCategory" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\anonscategory\WeekDayCategory.cpp" FORMNAME="" UNITNAME="WeekDayCategory" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\anonscategory\Category.h" FORMNAME="" UNITNAME="Category.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\stringcontainer\StringContainer.cpp" FORMNAME="" UNITNAME="StringContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\anonscategory\YearCategory.cpp" FORMNAME="" UNITNAME="YearCategory" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sessionmanager\SessionManager.cpp" FORMNAME="" UNITNAME="SessionManager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sessionmanager\SessionSaver.cpp" FORMNAME="" UNITNAME="SessionSaver" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sessionmanager\SessionLoader.cpp" FORMNAME="" UNITNAME="SessionLoader" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sessionmanager\XMLElements.cpp" FORMNAME="" UNITNAME="XMLElements" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sessionmanager\tinyxml\tinyxml.cpp" FORMNAME="" UNITNAME="tinyxml" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sessionmanager\tinyxml\tinyxmlparser.cpp" FORMNAME="" UNITNAME="tinyxmlparser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sessionmanager\tinyxml\tinystr.cpp" FORMNAME="" UNITNAME="tinystr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sessionmanager\tinyxml\tinyxmlerror.cpp" FORMNAME="" UNITNAME="tinyxmlerror" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filereaderwriter\FileReaderWriter.cpp" FORMNAME="" UNITNAME="FileReaderWriter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\weektextmap\WeekTextMap.cpp" FORMNAME="" UNITNAME="WeekTextMap" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\stringcontainer\CharClassificator.cpp" FORMNAME="" UNITNAME="CharClassificator" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\AnonsSplitter.cpp" FORMNAME="" UNITNAME="AnonsSplitter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\filmsmap\FilmsMap.cpp" FORMNAME="" UNITNAME="FilmsMap" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ShowTime.cpp" FORMNAME="" UNITNAME="ShowTime" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filmcontainer\FilmContainerUtilites.cpp" FORMNAME="" UNITNAME="FilmContainerUtilites" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\anonscategory\FilmNameCategory.cpp" FORMNAME="" UNITNAME="FilmNameCategory" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\anonscategory\DirectorCategory.cpp" FORMNAME="" UNITNAME="DirectorCategory" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonssplitter\anonscategory\Category.cpp" FORMNAME="" UNITNAME="Category" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="film\FilmType.cpp" FORMNAME="" UNITNAME="FilmType" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="historyform\HistoryForm.cpp" FORMNAME="HistorySelector" UNITNAME="HistoryForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="settingseditor\SettingsEditorFrm.cpp" FORMNAME="SettingsEditor" UNITNAME="SettingsEditorFrm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="imagemanager\sharefoldersmanager\ShareFoldersManager.cpp" FORMNAME="" UNITNAME="ShareFoldersManager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="anonstree\TreeColors.cpp" FORMNAME="" UNITNAME="TreeColors" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fileoperations\FileOperations.cpp" FORMNAME="" UNITNAME="FileOperations" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="settingsmanager\SettingsManager.cpp" FORMNAME="" UNITNAME="SettingsManager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="settingsmanager\XMLElementsSettings.cpp" FORMNAME="" UNITNAME="XMLElementsSettings" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="replaceAnonsTextChecker\ReplaceAnonsTextChecker.cpp" FORMNAME="" UNITNAME="ReplaceAnonsTextChecker" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="StringsUtilites.cpp" FORMNAME="" UNITNAME="StringsUtilites" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="channelfilesandnames\ChannelFilesAndNames.cpp" FORMNAME="" UNITNAME="ChannelFilesAndNames" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="channelfilesandnames\ChannelsList.cpp" FORMNAME="" UNITNAME="ChannelsList" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="filmsinweekdays\FilmsInWeekDaysFrm.cpp" FORMNAME="FilmsInWeekDaysFrame" UNITNAME="FilmsInWeekDaysFrm" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=imagemanager\sharefoldersmanager;settingseditor;historyform;..\..\Bin;anonssplitter\filmsmap;anonssplitter;anonssplitter\weektextmap;filereaderwriter;filereader;sessionmanager\tinyxml;sessionmanager;anonssplitter\anonscategory;anonssplitter\stringcontainer;filmeditor\stringeditor;imageselectorform;imagemanager;filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\include;$(BCB)\include\vcl
+Item1=anonssplitter\anonscategory;anonssplitter\stringcontainer;filmeditor\stringeditor;imageselectorform;imagemanager;filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\include;$(BCB)\include\vcl
+Item2=filmeditor\stringeditor;imageselectorform;imagemanager;filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\include;$(BCB)\include\vcl
+Item3=filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\include;$(BCB)\include\vcl
+Item4=outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=imagemanager\sharefoldersmanager;settingseditor;historyform;..\..\Bin;anonssplitter\filmsmap;anonssplitter;anonssplitter\weektextmap;filereaderwriter;filereader;sessionmanager\tinyxml;sessionmanager;anonssplitter\anonscategory;anonssplitter\stringcontainer;filmeditor\stringeditor;imageselectorform;imagemanager;filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\lib\obj;$(BCB)\lib
+Item1=anonssplitter\anonscategory;anonssplitter\stringcontainer;filmeditor\stringeditor;imageselectorform;imagemanager;filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\lib\obj;$(BCB)\lib
+Item2=filmeditor\stringeditor;imageselectorform;imagemanager;filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\lib\obj;$(BCB)\lib
+Item3=filmeditor\imageselectorform;outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\lib\obj;$(BCB)\lib
+Item4=outdirectoryframe;outdirectorymanager;ImageViewer\GraphicEx;ImageViewer;filesearch;channeltexteditor\filereader;filmcontainer;film;channel;filmeditor;fileanonsobserver;channeltexteditor;anonstree;..;ArtProgrmmki\film;ArtProgrmmki\channel;ArtProgrmmki\filmeditor;ArtProgrmmki\fileanonsobserver;ArtProgrmmki\channeltexteditor;ArtProgrmmki\anonstree;ArtProgrmmki;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=C:\
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
